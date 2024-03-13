@@ -1,0 +1,137 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  height: 80px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.nav-logo img{
+  height: 70px;
+  width: 70px;
+}
+a{
+  text-decoration: none;
+}
+
+.nav-center a{
+  color: #E8E8E8;
+  font-size: 1.1rem;
+  font-family: Helvetica, sans-serif;
+  margin: 3px 0px 0px;
+  padding: 0px 20px;
+}
+
+
+.nav-end .btn{
+  height: 36.6px;
+  width: 139.59;
+  background-color: #fcaf17;
+  color: #000000;
+  font-size: 1.1rem;
+  font-family: Helvetica, sans-serif;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+}
+.nav-end a i{
+  color: #E8E8E8;
+  height: 1.5px;
+  width: 1rem;
+  margin-left: 1.7rem;
+}
+
+.hero-section{
+  background-color: rgb(19, 17, 17);
+  display: flex;
+  height: 47rem;
+}
+.hero-left img{
+  width: 85rem;
+  height: 47rem;
+}
+.hero-right{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+  
+}
+
+.hero-right p{
+  font-family: Helvetica, sans-serif;
+  color: #E8E8E8;
+  font-size: 1.1rem;
+  margin-bottom: 1.3rem;
+
+}
+
+.hero-right h1{
+  font-family: Helvetica, sans-serif;
+  color: #E8E8E8;
+  margin-bottom: 1.3rem;
+  font-size: 2rem;
+}
+
+.hr-box{
+  display: flex;
+  text-align: start;
+  column-gap: 2rem;
+}
+.hr-btn{
+  width: 100%;
+    height: 45px;
+    background: transparent;
+    border: 1px solid aqua;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #E8E8E8;
+    font-weight: 600;
+  
+}
+
+.foot{
+  height: 300px;
+  background: #000000;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 30px;
+}
+
+.foot-up{
+  display: flex;
+  justify-content: space-between;
+}
+.fu-left a{
+  color: #E8E8E8;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 2rem;
+}
+
+.fu-right{
+  color: #E8E8E8;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fu-right select{
+  background-color: transparent;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 2.3rem;
+  color: #E8E8E8;
+  width: 20rem;
+}
